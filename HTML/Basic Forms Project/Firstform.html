@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Event Registration</h1>
+    <div>
+        <form action="">
+            <lable for="Name">Name:</lable>
+            <input type="text" id="Name" name="Name">
+            </br>
+            </br>
+
+            <lable for="Emailid">Email Id:</lable>
+            <input type="text" id="Emailid" name="Emailid">
+            </br>
+            </br>
+
+            <lable for="Phone No">Phone No:</lable>
+            <input type="tel" id="Phone No" name="Phone No" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+
+            <small>Format: 123-456-7890</small>
+            </br>
+            </br>
+            <label for="Occupation Type">Occupation</label>
+            <select name="Occupation Type" id="Occupation Type">
+                <Option value="Student">Student</Option>
+                <Option value="Professional">Professional</Option>
+                <Option value="Other">Other</Option>
+            </select>
+            <fieldset>
+                <legend>Topics Of Intrest</legend>
+                <label for="checkbox">HTML</label>
+                <input type="checkbox" name="checkbox" id="checkbox">
+                </br>
+                </br>
+                <label for="checkbox2">CSS</label>
+                <input type="checkbox" name="checkbox2" id="checkbox2">
+                </br>
+                </br>
+                <label for="checkbox3">JAVASCRIPT</label>
+                <input type="checkbox" name="checkbox3" id="checkbox3">
+
+            </fieldset>
+            <label for="textarea1">Comments</label>
+            <textarea name="textarea1" id="textarea1" cols="30" rows="10"></textarea>
+
+            </br>
+            </br>
+
+            <button>Register</button>
+
+
+
+
+
+
+
+
+
+        </form>
+    </div>
+</body>
+
+</html>
